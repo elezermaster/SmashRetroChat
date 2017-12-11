@@ -1,0 +1,86 @@
+{
+  "project_info": {
+    "project_number": "727635877465",
+    "firebase_url": "https://festinflorit.firebaseio.com",
+    "project_id": "festinflorit",
+    "storage_bucket": "festinflorit.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:727635877465:android:cec9c9c72ab2bff0",
+        "android_client_info": {
+          "package_name": "emaster.festinflorit.navigation"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "727635877465-2rgb9ijj47cnhv7ksu4t2c6mm0o42c7d.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "emaster.festinflorit.navigation",
+            "certificate_hash": "0b92150b12c946696ec1cb537862dbc8330cf2b7"
+          }
+        },
+        {
+          "client_id": "727635877465-s6t39pvldfdndb4d879iiqojboue7f7q.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDq6kj2R-sLbry8NGg6xNqLPNPsSpH-0Rk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "727635877465-s6t39pvldfdndb4d879iiqojboue7f7q.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:727635877465:android:aaff806b838e1e55",
+        "android_client_info": {
+          "package_name": "io.emaster.smashretrochat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "727635877465-s6t39pvldfdndb4d879iiqojboue7f7q.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDq6kj2R-sLbry8NGg6xNqLPNPsSpH-0Rk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,73 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="#E5E5E5">
+
+    <android.support.design.widget.AppBarLayout
+        android:id="@+id/app_bar_toolbar_chat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar_chat"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            app:popupTheme="@style/AppTheme.PopupOverlay"
+            app:layout_collapseMode="pin"
+            app:layout_scrollFlags="scroll|enterAlways|snap"/>
+    </android.support.design.widget.AppBarLayout>
+
+<android.support.v7.widget.RecyclerView
+    android:id="@+id/messagesList"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_alignParentRight="true"
+    android:layout_alignParentEnd="true"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentStart="true"
+    android:layout_below="@+id/app_bar_toolbar_chat"
+    android:layout_above="@+id/linearLayout">
+
+</android.support.v7.widget.RecyclerView>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:id="@+id/linearLayout"
+
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+        <ImageButton
+            android:layout_weight="1"
+            android:id="@+id/send_image_btn"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:src="@drawable/ic_menu_camera"/>
+        <EditText
+            android:layout_weight="8"
+            android:id="@+id/et_SendMessage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <ImageButton
+            android:layout_weight="1"
+            android:id="@+id/send_message_btn"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+
+            android:layout_marginEnd="5dp"
+            android:layout_marginRight="5dp"
+            app:srcCompat="@drawable/ic_menu_send" />
+
+    </LinearLayout>
+</RelativeLayout>
+
+
